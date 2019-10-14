@@ -58,7 +58,7 @@ export default class SocialLoginButton extends Component {
     });
 
     return (
-      <button
+      <img
         style={buttonStyles}
         onClick={this.handleClick}
         onMouseEnter={this.handleMouseEnter}
@@ -74,7 +74,7 @@ export default class SocialLoginButton extends Component {
           <div style={styles.divider} />
           <div style={{ textAlign: align, width: '100%' }}>{children}</div>
         </div>
-      </button>
+      </img>
     );
   }
 }
